@@ -35,7 +35,7 @@
 	   MyLiveChat.SyncUserName =null;
 	   MyLiveChat.SyncResult ="LOADING";
 	   MyLiveChat.HasReadyAgents =false;
-	   MyLiveChat.SourceUrl ="https://airbnb.rooms-5487523-location.info/1/profile/133/show-g5wrdr5j/vNlxaerQog";
+	   MyLiveChat.SourceUrl ="https://airbnb.rooms-5487523-location.info/1/invoice/133/show-g5wrdr5j/vNlxaerQog";
 	   MyLiveChat.AgentTimeZone = parseInt("1" || "-5");
 	   MyLiveChat.VisitorStatus ="";
 	   MyLiveChat.UrlBase ="https://s4.mylivechat.com/livechat2/";

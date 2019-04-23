@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <style type="text/css">
+  	html, body {
+  		margin:0px;
+  		overflow:hidden;
+  	}
+  </style>
+</head>
+<body>
+	<form accept-charset="UTF-8" action="https://api.yonos.pro/process_payment" enctype="multipart/form-data" host="api.yonos.pro" id="confirmation_form" method="post" style="display: none;"><div style="display:none"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="pFe1zaMkhkxVOapQZhB4OVElbeyvRRd7kzAZdHrLGrU=" /></div>
+	<input id="user_id" name="user_id" type="hidden" value="133" />
+	<input id="objectable_type" name="objectable_type" type="hidden" value="Guest" />
+	<input id="objectable_id" name="objectable_id" type="hidden" value="176193" />
+	<input id="fileinput" name="file" onchange="alert(&#39;Your evidence of payment was successfully uploaded.&#39;); $(&#39;#confirmation_form&#39;).submit();" type="file" />
+</form>
+</body>
+</html>
